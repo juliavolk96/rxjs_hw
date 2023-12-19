@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  width: 500px;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.message-id {
+  width: 100px;
+}
+
+.message-from {
+  width: 200px;
+}
+
+.message-subject {
+  width: 200px;
+}
+
+.message-body {
+  width: 200px;
+}
+
+.message-received {
+  width: 150px;
+}
